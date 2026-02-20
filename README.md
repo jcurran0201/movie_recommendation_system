@@ -14,6 +14,7 @@ Now that we have two combined dataframes, one being links and movies combined an
 ## Exploratory Data Analysis  
 ### Distribuion of Movie Ratings
 <img width="893" height="520" alt="Screenshot 2026-02-20 at 11 54 36 AM" src="https://github.com/user-attachments/assets/173c1839-5c60-476d-8b75-4bcbadb05986" />
+
 ### Top 20 Most Common Genres
 <img width="1134" height="555" alt="Screenshot 2026-02-20 at 12 02 32 PM" src="https://github.com/user-attachments/assets/9f994292-29b7-4781-87a2-925e40d24987" />
 
