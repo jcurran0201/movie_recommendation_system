@@ -22,6 +22,7 @@ Now that we have two combined dataframes, one being links and movies combined an
 
 ### Average Rating Per Genre
 <img width="1150" height="562" alt="Screenshot 2026-02-20 at 12 04 55 PM" src="https://github.com/user-attachments/assets/3324c8fb-d0d0-486c-9d2b-0540eecd547e" />
+
 ### Most common movie titles 
 <img width="893" height="611" alt="Screenshot 2026-02-20 at 12 06 33 PM" src="https://github.com/user-attachments/assets/02601a1e-77e7-40c2-a8c8-d8e1064aca7d" />
 
