@@ -28,8 +28,15 @@ Now that we have two combined dataframes, one being links and movies combined an
 <img width="893" height="611" alt="Screenshot 2026-02-20 at 12 06 33 PM" src="https://github.com/user-attachments/assets/02601a1e-77e7-40c2-a8c8-d8e1064aca7d" />
 
 ## Natural Language Processing  
-In order to handle 'title', 'genres', 'tag' columns the use of TfidfVectorizer, hstack, and normalize were needed. The first step in this process was to properly separate the different rows in the 'genres' column that had multiple genres. They were originally separated with | (i.e. Action|Adventure|Sci-Fi). Any stop words in the data needed to be filtered out 
-## Recommendation System 
-### Metrics used to analyze the systems 
+In order to handle 'title', 'genres', 'tag' columns the use of TfidfVectorizer, hstack, and normalize were needed. The first step in this process was to properly separate the different rows in the 'genres' column that had multiple genres. They were originally separated with | (i.e. Action|Adventure|Sci-Fi). Any stop words in the data needed to be filtered out as well. Next step is to fit_transform tag and genres to convert the text into computer readable numbers. hstack() is then used to combine tag and genres together so model can recommend using both columns. Lastly, normalize() is used to scale each movie vector so vector length = 1. This is important because Cosine similarity compares direction, not magnitude. Without normalization Movies w/ more tags will have larger vectors and unfairly dominate similarity. Normalization makes comparisons these comparisions fair since we are looking for similarity, not magnitude. 
+## Recommendation System  
+
+### KNN algorithm 
+
+### Multi-movie recommendation function 
+
+### average_similarity_to_test 
+
+### average_similarity
 
 ## Deployment
