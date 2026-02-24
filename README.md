@@ -41,4 +41,4 @@ Recommendations were evaluated using average cosine similarity between the user�
 ### Why Content-Based Recommender Was Used
 Although rating data existed in the dataset, it was not used to model user preferences, so a collaborative filtering approach was not feasible. A content-based “because you watched” recommender was chosen instead, as it works without historical user behavior, avoids cold-start issues for new movies, and produces interpretable recommendations based on similarity. This approach allows the system to generate meaningful, deployable recommendations while demonstrating feature engineering and similarity-driven recommendation techniques.
 
-## Deployment
+## Planned Deployment
