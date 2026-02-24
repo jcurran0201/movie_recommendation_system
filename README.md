@@ -42,3 +42,12 @@ Recommendations were evaluated using average cosine similarity between the user�
 Although rating data existed in the dataset, it was not used to model user preferences, so a collaborative filtering approach was not feasible. A content-based “because you watched” recommender was chosen instead, as it works without historical user behavior, avoids cold-start issues for new movies, and produces interpretable recommendations based on similarity. This approach allows the system to generate meaningful, deployable recommendations while demonstrating feature engineering and similarity-driven recommendation techniques.
 
 ## Planned Deployment
+I’ve developed a FastAPI backend for a movie recommendation system that exposes a /recommend endpoint. Users can send a list of movies they’ve watched and the amount of recommendations they want, and the API returns a personalized list based on the model. Currently, the API is functional and can be tested programmatically, but it doesn’t yet have a user-facing interface.
+The next step is to turn this API into an interactive web app. The plan includes building a frontend interface either with a JavaScript framework such as React or with simple HTML templates served by FastAPI where users can enter watched movies, submit their requests, and view recommendations dynamically.  
+
+## Future Improvements to the project 
+
+### Model 
+Improvements to the model will include the model being able to make predictions based on movies that users have watched most recently, most frequently, and  which movies they rated the highest. Adding these additional features to the recommendation system will help users more easily find movies that they would likely enjoy watching.
+### Deployment 
+Improvements will include input validation, error handling, and features like user accounts or watch history for personalized recommendations. Once deployed to a cloud platform, this project will provide a seamless, real-time movie recommendation experience for users.
